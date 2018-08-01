@@ -1,3 +1,20 @@
+
+使用方法:
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+Step 2. Add the dependency
+
+dependencies {
+        implementation 'com.github.yuanmingsun:highmvp:v1.0.0'
+}
+
+
+
+
 使用方法
 public class LoginPresenter extends BasePresenter<LoginView> {
 
